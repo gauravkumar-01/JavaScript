@@ -1,0 +1,31 @@
+================================================= BASICS ===========================================================
+
+JS me 0 based indexing hoti hai, jb hm out of index value dete hai to hame "undefined" as a output milega, error nhi milegi...
+In JavaScript not require to define datatype of variables.
+
+We can not define a variable multiple times in JS.
+    Eg: let a = 10;
+        a = "Gaurav"
+
+    NOTE : We can change the value of any variable in such way. It is possible in JS.
+        These type of languages are known as "Weekly Type Languages".
+
+First statement me ek "a" name ki bucket banegi and ek bucket aur banegi kisme 10 store hoga.
+    (a wali bucket 10 wali bucket ko point out kr rhi hogi..)
+
+Second statement me a name ki bucket phle se bani hui hai, "Gaurav" name ki bucket banegi, and then
+    (a wali bucket "Gaurav" wali bucket bucket ko point krne lagegi..)
+
+NOTE : Hm JS me variable ka datatype define nhi kr skte, Jb pura code execute ho jayega tb pta chalega ki variable kis type ka hai..
+This type of languages are known as "Dynamically Type Language".
+
+IMPORTANT :
+    If we declare a variable and did not assign any value, then what happens :
+        --> A bucket will create with the variable_name and it will point to "undefined".
+        --> If we assign value, then a bucket of value is also created and the variable_name will point to bucket of its data.
+
+
+SOME STRING METHODS :
+    -> substr
+    -> substring
+    -> indexOf

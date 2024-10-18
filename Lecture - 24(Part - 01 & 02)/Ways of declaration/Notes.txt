@@ -1,0 +1,23 @@
+There are 3 ways of Declaration :
+    --> let 
+    --> const
+    --> var
+
+    let and const are added after ES6.(EcmaScript - 6).
+
+Reinitialize : redeclaration of any variable...
+Reassign : assigning (or changing) its value again...
+
+Defference between ways of Declaration..
+
+    const : 
+        It can not be reassigned..
+        It can not be redeclared..
+
+    let :
+        It can not be redeclared..
+        But, It can be reassigned..
+
+    var :
+        It can be redeclared..
+        And, It can be reassigned..

@@ -1,0 +1,102 @@
+**What is a Programming language ?**
+The languages in which I can build my own logics.
+
+
+==> Programming Languages are have two types :
+    **--> Interpreted :** Code executes line by line.
+    JS is an interpreted language.
+
+    **--> Compiled :** Pura code ek sath compile hokr ek executable file banata hai.(High-level Language to Low-level Language.)
+
+    --> High-Level Language --> Human Language.
+    --> Low-Level Language --> Machine Language.
+
+==> Browser :
+    --> Layout Engine : HTML, CSS
+    --> JS Engine : JS (Interective)
+
+NOTE : JS is a case-sensitive language.
+
+==> Datatypes :
+    --> Primitives : Simplest Datatype that can not breakdown further.
+
+        -> String : 'a','abc'
+        -> Number : 1,2,2.5,3.66
+        -> Boolean : true,false
+        -> undefined
+        -> null
+        -> BigInt
+        -> symbol
+
+    --> Non-Primitives :
+
+    Console : Console is our REPL.
+        R -> Read
+        E -> Evaluate
+        P -> Print
+        L -> Loop
+
+Defining a valriable :
+
+    let variable_name = data (any type of data- Number, boolean, String etc)
+    eg. let myname = 'Gaurav'
+        let a = 10
+EXPLAINATION :
+    Isme sabse pahle ek bucket create hogi, "myname" ki then ek aur bucket create hogi jisme "Gaurav" store hoga, and myname wali bucket point kr rhi hogi Gaurav wali bucket ko..
+
+    => This type of languages are known as Scripting Languages.
+    => Jab myname ko call kiya jayega to vo jisko point krega vo return hoga.
+
+==> Rules to make the variables :
+    -> It can not start with number, but numbers may came in-between.
+    -> Spaces are not allowed in between the name of variables.
+    -> Keywords can not be used as variable name.
+    -> We can start with these special symbols('_' and '$').
+
+
+==> Ways of writing a variable :
+    -> Normal : Space is ignored.
+        Eg. gauravkumar
+    -> Camelcase : Each word start with Capital letter.
+        Eg.GauravKumar
+    -> Snakecase : Each word seperated with underscore'_'.
+        Eg. gaurav_kumar
+    -> Kabab case : Each word is seperated by hyphens'-' . It is not used in JS (Hyphens are not allowed).
+
+
+    let var = 'gaurav's laptop'
+        It will through an error, then how we use ('s) in our data.
+
+    Note : Either we use backslash with ' or we can use "".
+
+    let lap = "Gaurav's Laptop"
+    let lap = 'Gaurav\'s Laptop'
+    NOTE : These both will print "Gaurav's Laptop" as an output.
+
+Note : JS file will be link at the bottom of HTML code, just above the closing body tag.
+    JS file can be added using script tag.
+
+IMPORTANT : Output of JS file will show in console after inspectiong the webpage.
+
+===================================================================================================================
+
+==> Backticks(String Templets (``) )
+
+    --> The main advantage of Backticks is that we do not require to concatenate the string.
+
+    --> We will enclose the variable that we want to evaluate inside ${} sign inside Backticks.
+
+    --> 'Gaurav' or "Gaurav" or `Gaurav` => These all are same, having same Output.
+
+Note : Inside String only "+" operator will work to concatenate, other operators are not work in string.
+
+====================================================================================================================
+
+==> NUMBERS :
+    (+) -> used to add.
+    (-) -> used to subtract.
+    (*) -> used for multiplication.
+    (/) -> used for division.
+    (**) -> used for power.
+
+NOTE : We can use script tag inside html file to write the code of JS.

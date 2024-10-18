@@ -1,0 +1,39 @@
+Some More Array Methods :
+
+    --> slice() : It returns the values from the starting index to end index.
+                => End index will not include..
+                => No change will occurs in original array.
+
+    --> splice() : It makes changes in original array.
+                => It deletes and returns the values from the array.
+                => It includes the end index.
+                => If we add more arguments to slice (except the starting and ending index) then these values will add in the array from the starting index as given in arguments.
+
+    --> split() : It is only for string.
+                => We can split the string from particular character.
+                => It will return an array of seperated words.
+
+    --> join() : It is used to join or merge the values with particular character.
+                => It can be used in array or string.
+
+    --> concat() : It is for both strings and for arrays.
+                    => It merge the two strings or arrays into single string or array.
+
+    --> includes() : It returns the boolean values, for both string and array.
+                    => It works in array as well as in Strings.
+                    => It check wether the given value is present in the array at any index or not.
+                    => In String it will check weather the substring present inside it or not.
+
+            NOTE : If present then it return the true else returns false.
+
+    --> indexOf() : It returns the index of value in array if present, else returns -1.
+                => It is valid for both Strings and Array.
+                => We can pass substring as an argument to find index.
+
+    --> reverse() : It reverses the values of the array.
+                => It does not work on string.
+                => It make changes in original array.
+
+
+NOTE : Arrays are bydefault reference type.
+It means change in one array will reflect in another Array.

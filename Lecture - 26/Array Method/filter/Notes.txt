@@ -1,0 +1,13 @@
+FILTER METHOD :
+                It accepts callback function.
+                It returns a new Array.
+                It only senses the truthful value to new Array.
+                    (If condition will true only then it will add in new Array.)
+
+
+SYNTAX : array_name.filter(function(){
+        <--------- conditional statements ----------->
+        })
+
+
+Note : In filter it can not return index, It will return only value..

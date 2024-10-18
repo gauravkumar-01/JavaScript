@@ -1,0 +1,4 @@
+FONT AWESOME
+
+    -> To use the font awesome, first requirement is that we have a kit.
+    -> With the help of this, we can use the icons in HTML that requires.

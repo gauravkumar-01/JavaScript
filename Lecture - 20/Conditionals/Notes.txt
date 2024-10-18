@@ -1,0 +1,37 @@
+=======================================CONDITIONALS =======================================
+
+=> 'if' is self-dependent or stand-alone or independent condition.
+    => It conatains some condition.
+BUT
+    => 'else' is depend on if, it can not be used without 'if'.
+    => It does not contain any condition.
+
+NOTE : We can apply more than one condition inside if.
+
+Here, if-else statements are same as in other Languages..
+
+
+------------------------------------------------------------------------------
+
+==> OPERATORS :
+
+    => && -> and operator (executes when all conditions are true.)
+    => || -> or operator (executes when either one condition or all conditions are true.)
+    => ! -> not operator : Single statement operator (executes when condition is false.)
+
+------------------------------------------------------------------------------
+
+==> RELATIONAL OPERATORS : comes between two conditions.
+    != 
+    !==
+    ==
+    ===
+    >
+    >=
+    <
+    <=
+
+------------------------------------------------------------------------------
+
+==> USER INPUT :
+    User Input will take using "prompt" method.

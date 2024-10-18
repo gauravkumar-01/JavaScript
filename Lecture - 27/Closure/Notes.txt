@@ -1,0 +1,6 @@
+CLOSURE :
+    jab ek function return hota hai, tb vo apne lexical environment ke variables ko bhi sath lekr return hota hai, jinka use us function ke andr hua hota hai..
+
+
+If we want to return multiple function then we will use object.
+We will return the object and these properties will access by dot(.) ;

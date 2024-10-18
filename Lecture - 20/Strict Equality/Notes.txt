@@ -1,0 +1,25 @@
+To find the datatype we will use "typeof" attribute..
+
+Number can store : +,-,Infinite, NaN
+
+In General Equality :
+    -> Typecasting Ocuurs.
+    -> It checks only the content of left side of equality or right side of equality is equal or not.
+    -> It does not check the datatype.
+
+In Strict Equality :
+    -> Typecasting does not occurs.
+    -> It checks the content as well as the datatype of both side of equality.
+    -> If both(content and datatype) will be same then it returns true otherwise returns false.
+
+
+# UNDEFINED v/s NULL
+
+    => Undefined : When we declares a variable and did not assign any value, then by default JS defined its value as 'undefined'.
+    => Null : When we want to not assign any value to the variable then we will explicitly assign a value 'null' to it.
+
+# Some Inportant to Know :
+    -> 0/10 = 0, (It's type is Number.)
+    -> 10/0 = Infinity, (It's type is Number.)
+    -> 0/0 = NaN, (It's type is Number.)
+    -> undefined, (It's type is 'undefined'.)

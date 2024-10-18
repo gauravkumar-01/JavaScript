@@ -1,0 +1,8 @@
+We can store the function inside object.
+Those functions are defined inside objects are known as Methods.
+
+Method always returns a vlaue.
+When we do not return anything from the function, then JavaScript return "undefined" automatically.
+
+Note : We can access all properties of our object using "this" keyword.
+    If we write "this" keyword inside any method then it will point the particular object.

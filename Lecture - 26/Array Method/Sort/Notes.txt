@@ -1,0 +1,8 @@
+SORT METHOD : 
+    Bydefault, It will sort lexiographically..
+    It accepts the callback function..
+
+If we want to sort by values..
+    then we use comparator function..
+    return a-b     // for ascending order
+    return b-a      // for descending order..

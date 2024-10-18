@@ -1,0 +1,17 @@
+Map () : It also accepts the call-back function.
+        It returns a new array.
+
+
+Syntax : array_name.map(function(value,index){
+    
+        })
+
+        We can perform some operations over it.
+        It is not necessary to accepts 2 parameters, we can accept only one also.
+        We can return both values and index by storing it in an array.
+
+        Eg :
+        array_name.map(function(value,index){
+                // performing operations.
+                return [value*2,index];
+        })

@@ -1,0 +1,7 @@
+Higher Order Functions :
+    Functions that operates on other functions either by :
+        --> taking them as an arguments.
+        --> returning them as a function.
+
+IN HINDI :
+    HOF vo hote hai, kisi dusre function ko as an argument accept krte hai ya fir ek function ko return krte hai..

@@ -1,0 +1,1 @@
+Whenever a JavaScript code runs then a "Global Execution Context" is created, and when a global execution context is created along with that a "Global Object" is also created.

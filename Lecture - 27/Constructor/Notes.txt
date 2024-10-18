@@ -1,0 +1,22 @@
+Constructor :
+
+    'new' Keyword before the function calling, creates that function as a constructor.
+    Constructor is use to create object.
+    We can give the values/properties inside the constructor, using this keyword.
+
+Constructor functions are used as the blueprint to create the similar type of objects.
+
+
+We can add as many properties in our constructor as we want,
+
+
+Convention : It is not compulsary to start name of constructor with capital letter, but it is suggested to start the constructor name with Capital Letter.
+        It is used to genrate the object.
+    
+we can add some properties of our object in the self made prototype.
+
+
+EXAMPLE :
+hmne ek example me description ka alag se prototype banaya hai,
+jb hum user.description krege to phle fun me jakr description check karega,jb fun me description nhi milega tb fun ke prototype me check hoga.
+agr mil jayega to return kr dega, nhi to error through karega..

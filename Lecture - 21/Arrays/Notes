@@ -1,0 +1,33 @@
+ARRAYS :
+    -> DataStructure
+    -> Ordered Data DataStructure(Preserves the input order.)
+    -> Hetrogeneous Types(may contains different datatypes.)
+
+Note : In JS we not need to define the datatype of Array.
+    => Everything inside JS is an Object.
+
+IMPORTANT :
+    -> There can be nesting of Array in JavaScript.
+    -> We can use any datatype in array.
+
+
+==> ARRAYS METHODS :
+    There are two types of Array :
+        -> Destructive :
+            If we done any changes in array, then all the changes will reflect in the original array.
+        
+        -> Non-Destructive :
+            If we do changes in the array then these changes will occur in particular array only. No change will occur in original Array.
+
+==============================================================================
+
+==> Some Methods in Array :
+    -> push() : used to add the value at the last of the array.
+    -> pop() : last available element will be poped out of the array.
+        When our array is empty then, it will return undefined.
+    -> unshift() : It will add the value at the starting of the array & returns the length of the array.
+    -> shift () : It removes the first value of the array & return it.
+
+
+IMPORTANT NOTE : pop() & shift() : returns the removed elements from the array.
+    push() & unshift() : add the elements and return the length of the array.

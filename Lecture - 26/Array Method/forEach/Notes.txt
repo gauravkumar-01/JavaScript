@@ -1,0 +1,12 @@
+forEach() : It is a method.
+            It accepts the callback function.
+            It returns nothing.
+
+SYNTAX : Array_name.forEach(function(value,index){
+
+        })
+
+        Isme ham koi bhi method dal de, ye automatically callback ban jayega..
+
+        NOTE : Second argument is not necessary, We can give only one argument.
+                It can not return anything, it used only for display the output.

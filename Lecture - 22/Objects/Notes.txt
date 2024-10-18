@@ -1,0 +1,31 @@
+What is Object ?
+    --> It is a unordered data-structure.
+    --> collection of properties.
+
+Properties : It is a pair of key and value.
+
+Objects are the data-structure,unlike array.
+    It is unordered in nature.
+
+
+Syntax of Object :
+    let object_name = {key,value pairs};
+
+    Note : Each pair is separated by comma(,) and key values are separated by colon (:).
+
+Note : Key and Values are seperated by colon (:).
+
+We can access each key by using dot(.) operator.
+
+
+WHY DO WE MAKE OBJECTS ??
+    We will make object to store multiple task of the particular value.
+
+All the keys in memory bydefault stores as the String.
+Objects are also pass by reference in JavaScript.
+
+Note : We can define function inside objects.
+**Important** : Those functions which are defined inside objects are known as Methods.
+
+
+    EVERYTHING INSIDE JAVASCRIPT IS AN OBJECT.

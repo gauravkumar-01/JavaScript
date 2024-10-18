@@ -1,0 +1,27 @@
+Prototypes : 
+    If we try to access the properties of the object then JS will firstly find it in that object and then if not found then it will go to its Prototype.
+
+WHAT IS PROTOTYPE ??
+        It is also an another object, which is used as a fallback source of properties.
+
+Fallback Source : Jab hamara object kisi property ko batane me fail ho jata hai, tb vo prototype(Parent) ke pas jata hai, us object ki khoj mai. This is called FallBack.
+
+.__proto__      // used to find the prototype/parent of any object..
+todo.__proto__      ==> Output -> Object { … }
+Object.prototype.__proto__   ==> Output -> null
+
+.__proto__  => It directly access the prototype of variables.
+.prototype.__proto__  => It is dender prototype, used when we access the prototype of variable's parent or above..
+
+
+Note : JavaScript ke har object ke pas prototype hota hai..
+
+"Everything inside JS is an Object."
+
+    Array,String & Everything behind the scenes khud ko object me convert krta hai..
+    It also stores the data in the form of key:value pair..
+    key --> index       &&      value --> data
+
+This whole process is called Inheritence.
+
+Note : We can make temporary changes in the methods, but not supposed to do that...

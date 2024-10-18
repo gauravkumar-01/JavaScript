@@ -1,0 +1,1 @@
+Closures : A function bundled together with reference to its sourrounding state or lexical environment when it returns, that is called Closure.

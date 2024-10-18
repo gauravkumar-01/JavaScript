@@ -1,0 +1,28 @@
+We can store the entire function inside the variable in JavaScript.
+
+Whenever we store the entire function in any variable then it is known as :
+    --> Functional Expression
+    --> First Class Function
+    --> First Class Citizen
+
+
+We can define our variable by using :
+    --> var
+    --> let
+    --> const
+
+Whenever a JavaScript code is run then a Global Execution Context is created.
+It has 2 main phases :
+    --> MCP : Memory Creation Phase
+        Before Executing the code the memory is allocated to all variables and functions.
+
+        Before the exection of code undefined is point by each variables, value will assigned while execution of code.
+
+    --> CEP : Code Execution Phase
+        After allocation of memory the code will execute line by line.
+
+Note : When any function is run then a new execution context is created.
+    ==> After the execution of code, the execution contest will destroy.
+    ==> These all execution context will run in call stack.
+    ==> After executtion of context it will destroy from call stack.
+    ==> Call Stack will continue till it not becomes empty.

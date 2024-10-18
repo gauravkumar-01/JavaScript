@@ -1,0 +1,4 @@
+A call Back function is a function that is passed into another function when is then invoked inside the function..
+
+Higher Order Function vo hota hai, jo kisi dusre function ko accept krta hai,
+Jis function ko accept kiya jata hai, usi function HOF ke andr dubara call kiya jaye, to use "CallBack Function" bolte hai..

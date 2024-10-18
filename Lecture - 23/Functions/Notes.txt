@@ -1,0 +1,25 @@
+Functions are heart of JavaScript.
+
+It is a program, that done any particular work when it calls.
+
+Some Terminologies of Functions : 
+    --> Function Declaration -> by using 'function' keyword.
+    --> Function Calling -> by using the name of the function.
+    --> Parameterised Function -> Values are catched as a parameter inside the function. The values are passed at time of function calling are called arguments.
+        -> Default Parameterised Function : When default value is set to the parameters.
+    --> Functional Expression : Storing function into a variable.
+        Functional Expressions are also known as -
+            -> 1st class Function
+            -> 1st class citizen
+    --> Anonymous Function
+    --> Higher Order Function
+    --> Call Back Functions
+
+Notes : We can call functions as many times as we want.
+
+Function is declared by a keyword "function".
+Function always return sumething, if nothing is returned then it return "undefined">
+
+return mtlb jha se function ko call kiya gya hai, vha function ki returned value send kr do..
+
+If we will not pass any value in Default Parameterised function then it will point default value, else it will point the argumented value.

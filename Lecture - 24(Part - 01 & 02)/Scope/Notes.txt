@@ -1,0 +1,20 @@
+/* *************** SCOPE = 'Aukat' ********************* */
+
+Hoisting : When we access any variable/function before declaring it, this process is called Hoisting.
+    Hoisting can be done in var variable easily.
+
+let & const --> It has Block Scope..
+    We can not access let variable before initialising it.
+
+    IMPORTANT NOTE : Hoisting will occur in "let / const" variable only when there is Dead-Temporal Zone. 
+
+    Dead-Temporal Zone : It is the phase between MCP and CEP.
+                    Dead-Temporal Zone occurs only for let/const..
+                    We can not access the variable, untill we will not assign its value..
+                    Dead-Temporal zone occurs between MCP(Memory Creation Phase) and CEP(Code Execution Phase).
+var --> It has functional scope...
+
+NOTE : var ko access krne ke liye hm Parent's Lexical Environment me ja sakte hai..
+
+SCOPE = Local memory + Lexical Environment of it's Parent
+Lexical Environment = Local Memory + Parents Memory

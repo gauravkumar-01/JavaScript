@@ -1,0 +1,22 @@
+Block : denoted by {}
+The statements that are written inside the curly braces are in the block,
+
+
+Function : denoted by a keyword function.
+
+Note : Let & Const are  Block-level Scope.
+
+Block can be written without if-else,loop , etc...
+
+
+Global Execution Context me "let & const" ka "script" scope hota hai..
+                         var ka "global" scope hota hai...
+
+IMPORTANT NOTE : Inside any function the "var" has "Local Scope or Functional Scope"...
+                When the local execution context will destroy all the properties of that local execution context will also destroy..
+
+
+Hoisting happens in all the cases - let,var and const...
+                                    var - Normal Hoisting
+                                    let & const - Dead Temporal Zone
+                                        let and const can not access before intialisation...

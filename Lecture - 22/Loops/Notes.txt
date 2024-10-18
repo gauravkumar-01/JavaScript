@@ -1,0 +1,22 @@
+/*
+    Official Documenataion of JavaScript : AcmaScript.
+    JavaScript also known as AcmaScript.
+*/
+
+There are multiple types of loop in JavaScript.
+    --> for
+    --> while
+    --> do-while
+    --> for-in
+    --> for-of
+
+
+Break Keyword : Innermost loop se bahr aa jayenge...
+Continue Keyword : Next iteration pr phuch jayenge...
+
+
+/***** Difference between for-in and for-of loop *********** */
+
+==> for-in : --> When we want to iterate inside any object.
+
+==> for-of : --> When we iterate over an iterative item. e.g - Array,
