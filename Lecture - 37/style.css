@@ -1,0 +1,22 @@
+.first{
+    color : rgb(20, 192, 239);
+}
+
+.second{
+    background-color: crimson;
+}
+
+.third{
+    border : 5px solid blue;
+}
+
+.hd{
+    font-size: 40px;;
+}
+
+
+#container{
+    height : 100px;
+    width : 100px;
+    background-color : aqua;
+}

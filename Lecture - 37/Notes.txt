@@ -1,0 +1,84 @@
+======================================J QUERRY ======================================
+
+Official Documentaion : JQuerry.com -> (API Documentation)
+
+Another Documentation : 'You might not need jQuerry.com'
+
+==> What is JQuerry ?
+        It is the library of JavaScript, which helps in DOM Manupulation.
+
+    We can do all the works, which can be done by using JavaScript.
+
+    We can add JQuerry file either in Head tag, oe below at the body tag.
+
+    -> We will copy the jquerry code and paste in the new file of our workarea.
+    -> We will link the file with our HTML file.
+
+    NOTE : When we add(include) the jquerry then we have a variable access.(that variable is '$')
+    Keyword 'jQuerry' and Symbol '$' both will perform same functionality.
+
+    By using this variable, we can manipulate the entire DOM.
+
+
+============================================================================
+
+     Js has Libraries :
+        1. JQuerry
+        2. React JS : It also has some libraries.
+            a) NextJS
+            b) React Native
+
+    Note : Advance version of JavaScript is TypeScript.
+
+    => In case of TypeScript 'Error Handling' and 'AutoCompletions' becomes easy.
+
+============================================================================
+
+
+-------------------------------------- SELECTIONG ELEMENTS --------------------------------------
+
+    => We will select any element using dollar($) symbol.
+
+    => $ will work as QuerrySelectorAll as in JS.
+
+
+-------------------------------------- MANUPULATING ELEMENTS --------------------------------------
+
+    => CSS can be add after selecting any element.
+    => It will add by using (.css) wit hhavig the styling init.
+
+
+--------------------------------------- MANIPULATING ATTRIBUTES ---------------------------------------
+
+    => It can be act as both getter or setter.
+
+    => Val always act as getter and setter.
+
+
+--------------------------------------- Manipulating Class ---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================================================
+
+Difference between LIBRARY and FRAMEWORK .
+
+
+=> LIBRARY :
+
+    -> We use its code.
+    -> We will code as our requirement.
+
+
+=> FRAMEWORK :
+    -> It uses our code.
+    -> It gives the fixed set of steps in order to perform any task/work.
