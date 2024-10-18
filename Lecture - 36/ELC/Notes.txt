@@ -1,0 +1,36 @@
+When an event triggers, then it undergoes three phases...
+    -> Event Capturing
+    -> Event Target
+    -> Event Bubbling
+
+IMPORTANT : If I clicked the child then the event propagates from the top most level to target, and the hierarchy followed is known as Event Capturing.
+
+When we click on child and event triggers then it follows the hierarchy... :
+    HTML -> Body -> Grandp -> parent -> child,
+    this is called Event Capturing...
+
+    CAPTURING : Top-most level se target tk jana...
+
+#   Default value of capture is false.
+    
+    --> false : In case of false, the callback function of eventlistener will execute in Bubbling Phase.
+
+    --> true : In case of true, the callback function of eventlistener executes in capturing phase.
+
+The final point where we have to reach, it is called target.
+    Here, the target was "child".
+
+Go back from target to top-most place, is called Event Bubbling..
+
+==============================================================================
+
+documnet.eventListener(type,listener(function),usecaptue){
+    This is the code
+}
+
+UseCapture : It returns a boolean value & its default value is false.
+    => Due to this default value the event is working in "BUBBLING" phase not in capturing phase.
+    => To work the event in capturing phase, we should make the usecapture value is true.
+
+
+NOTE : InOrder to stop the event for further propagation, we should use 'stopPropagation()'.
