@@ -1,0 +1,10 @@
+DOM Events with Mouse .
+
+SOME MOUSE EVENTS ARE :
+    --> mouseenter Events
+    --> mouseleave Events
+    --> onclick Events
+
+Note : If we want to run multiple function with single event then it can not be done simply, we will use "event listener".
+
+addEventListener : It accepts two arguments('name of the event' , function);

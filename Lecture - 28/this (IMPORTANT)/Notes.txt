@@ -1,0 +1,52 @@
+IMPORTANT STATEMENT :
+                "this" keyword kisko point kr rha hai, ye decide hoga function calling/invocation se..
+
+/*
+    Whenever a JS Code runs a GEC(Global Execution Context) is created, whenever GEC created along with that a global object is also created.
+    In case of Browser the global Object is 'Window Object'.
+*/
+
+5 types of Function Invocation :
+
+    1. Regular Function Invocation : Invocation of Normal Function.
+
+            function fun(){
+
+            }
+            fun();          // Function Invocation
+
+    2. Method Invocation : Method means -> function inside object.
+
+            let obj = {
+                function fun(){
+
+                }
+            }
+
+            obj.fun();          // Method Invocation
+
+    3. Constructor Invocation : calling the function with 'new' Keyword.
+
+        function fun(){
+
+        }
+        let fn = new fun();      // Constructor Invocation
+
+    4. Indirect Calling : It has 3 methods.
+        -> call()
+        -> apply()
+        -> bind()
+
+    5. Arrow Function
+            const fn = ()=> {}
+
+
+Difference between call & apply .....
+    In case of call we can send the comma seperated arguments..
+    It will chnge the contaxt and referieon..
+
+
+It will use with comma seperated value as the arguments..
+
+
+"bind" will use to bind the "this" keyword with the particular object..

@@ -1,0 +1,25 @@
+DOM : Document Object Model / Modelling
+
+Document : Isme html hai..
+Object : JavaScript hai...
+Modelling : manipulation / change...
+
+It means that we can change the whole html format with the use of JavaScript, without changing in html file.....
+
+Browser : It provides an object name "Document" 
+
+If we write "document" on console then it will gives us an whole HTML tree or HTML Documents, which can be manipulate.....
+
+Browser provides us 'document'.
+
+Jab hm JS se html ko manipulate karege to hame pta hona chaihiye ki hm html file ke kis part ko modify kr rhe hai...
+
+So we use Selectors, to select that what we want to change/modify..
+
+===========> 5 Different Ways to Select <===========
+
+    --> get Element By Id : It select the element of particular id.
+    --> get Element By TagName : It selects the elements of particular tags.
+    --> get Element By Class : It selects the elements of particular class.
+    --> queerry Selectors : It selects only 1 element.
+    --> querry Selectors All : It selects all the elements.

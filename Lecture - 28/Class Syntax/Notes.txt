@@ -1,0 +1,18 @@
+Classes are added after EcmaScript 6.
+Before classes, constructor was used.
+
+Note : There is no difference between the functionality of class and constructor.
+
+Syntantical Sugar : A better way of writing the beautiful Syntax.
+
+Constructor are called by using "new" keyword.
+
+Class Syntax : we use a keyword "class".
+            We use a keyword constructor inside class.
+
+Note : We can inherit any class using "extend" keyword.
+        If we want to add any new property to new class then we will override the constructor.
+
+        Previous properties are used using "super constructor" by using "super" keyword.
+
+        If we define the same function in the new class, then it will run not the function of Parent class will run.

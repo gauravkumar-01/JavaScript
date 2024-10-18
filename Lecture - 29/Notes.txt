@@ -1,0 +1,44 @@
+Js is a :
+    --> weekly typed
+    --> dynamically typed
+    --> Synchronous : Execution is done in order.
+    --> Single threded : It means that JS engine can execute only single statement at a time.
+
+
+NOTE : Time, tide & JS waits for none.
+But, it may have some situation that we need to stop JS for some time.
+
+We have a method that is able to wait or hold our program for some time.
+This method is 'setTimeout()', it is inside the browser not in JS.
+
+It access two Parameters :
+    --> call-back function,
+    --> time delay (in ms)
+
+IMPORTANT NOTE : Jab ham JS Engine ko kisi particular statement pr hold krte hai, to ye free nhi rhta, ye next statement pr phuch jata hai..
+
+
+SOME IMPORTANT METHODS OF BROWSER :
+    --> Location
+    --> Local Storage
+    --> setTimeout
+    --> setInterval
+    --> url
+    --> console
+
+console.log()  --> It is the syntax of Browser.
+
+
+During the use of setTimeout() function.
+    --> Call Stack 'start' print hoga.
+    --> setTimeout() function will store in browser for 4 seconds. (as the time given in setTimeout function)
+    --> After 4 seconds it will move in Callback Queue.
+    --> Then it will move into Event Loop.
+    --> Now Event loop will send it in Call Stack.
+
+=> Callback Queue : It store the function in the sequence that stored/hold in browser.
+=> EventLoop : It will repetedly check weather the CallStack is empty or not.
+
+IMPORTANT :
+    How all these methods are access by browser ??
+    --> These all are known as Web API's that are send by Browser, so it can be easily accessable by JS.

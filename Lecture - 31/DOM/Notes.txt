@@ -1,0 +1,39 @@
+DOM : Document Object Model
+
+It is used to make changes in the html file, by using some selectors.
+
+SELECTORS :
+    => get elements by TagName : Select all the elements of the particular tagname.
+                                It returns an array of all the particular elements.
+    => get elements by ID : It select the only one element of Particular Id.
+                                If we have multiple id of same name, then it will return the first element to whom Id is given.
+    => get elements by Classname : It selects the multiple elements of same class name.
+                                    It will return the array of all the elements of same class name.
+
+                                Note : It is not a regular array, we can not use push/pop operations in these array.
+    => Querry selectors :
+                            It is used to select multiple elements at a time.
+                            --> Hm log id ko select krne ke liye "getElementbyId"
+                            --> Class ko select krne ke liye "getElementsByclass"
+                            --> tag ko select krne ke liye "getElementsByTagname" use krte hai..
+
+                            To is tarike ke multiple task se bachne ke liye, hm Querry Selectors ka use kr skte hai...
+
+            Note : We can select elements(by name),class(by dot),Id(by #) by using Querry Selector.
+                    It will return only one element( First hitting Element).
+
+
+    => Querry Selector All : It is same as Querry Selector but it returns all the elements in the "NodeList".
+                                NodeList => It is a type of Array.
+                            If we have given same "Id" to multiple elements then it will return all the elements.
+
+
+Note : To access any HTML file, we use document and see it in Inspector after Inspecting it.
+    To select any element, we use dot(.).
+    The tag which we want to select in JS file, we will write it inside String.
+
+
+After selecting any element by tagname, it will select all the elements of that tag name.
+After selectiong elements, if want to change its styling then we use ".style" & any property we want to give will be given by using dot(.).
+    Format : element.style.property
+    Example : p.style.color = 'red';        // Here color of p tag will become red.

@@ -1,0 +1,41 @@
+If we want to add any element in DOM then first we should have that element.
+
+It can be done by using "createElement".
+
+To adding or appending element we need to select parent of that element then we use "appendChild".
+
+appendChild --> Accepts only one Element.
+
+IMPORTANT NOTE : A child can have only one Parent.
+Note : We can add more then one Element at a time by using "append" method.
+
+    append : It will add all the elements (that are given inside it) at the last.
+
+
+If we want to add elements at the starting then we use "prepend".
+==> prepend() : It will add elements at Starting.
+                It can accept multiple arguments.
+
+
+=============================================================================================
+
+DIFFERENCE b/w appendChild, append and prepend
+
+appendChild :
+    --> It add the element at the end.
+    --> It add only single element at a time
+    --> It add the HTML elements only.
+
+append :
+    --> It add the elements at the end.
+    --> It can add multiple elements.
+    --> It allows "HTML tag" as well as "text" also.
+
+prepend :
+    --> It the elements at the starting.
+    --> It can add multiple elements.
+    --> It allows "HTML tag" as well as "text" also.
+
+
+TASK : 
+    Read about "after" and "before" from "MDN".

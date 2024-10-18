@@ -1,0 +1,3 @@
+setInterval(): It has two arguments ,
+                    1. Call-Back Function
+                    2. Time-Interval

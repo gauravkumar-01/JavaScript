@@ -1,0 +1,12 @@
+Advantages of Call-Back Nesting :
+    --> Each function will run in sequential manner
+
+Disadvantages of Call-back Nesting :
+    --> It grows horizontally. This is called Call-Back DOOM or Call-back Hell.
+    --> Due to horizontal growth, readiability becomes very worst..
+    --> There is dependancy of next step on previous step.
+
+
+IMPORTANT :
+    --> To avoid this type of Call-back hell we use Promises.
+    --> To avoid Promises we use Async- Await.

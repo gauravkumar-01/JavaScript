@@ -1,0 +1,11 @@
+// Select the Elements by Querry Selector
+
+// Select the Attribute of Elements, using getAttribute.
+
+// We can set the values using "setAttribute" .
+        It contains two arguments :
+            attribute : jis attribute ko set krna hai...
+            content : Jo hame set krna hai..
+
+
+setInterval : It repeats its statements, after a particular interval of time.

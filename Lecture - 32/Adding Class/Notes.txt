@@ -1,0 +1,3 @@
+To add multiple classes, we will provide the space-seperated class name inside "setAttribute" function.
+
+If we add the classes as comma-seperated then only first class will apply.

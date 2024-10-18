@@ -1,0 +1,20 @@
+To remove any element we should have access of it's parent.
+
+--> First, We should access of the parent.
+--> Second, We access the child which we want to remove.
+
+
+Note : We have only two methods to remove the elements are :
+    --> removeChild() : It remove only one child(first occurance) of the parent.
+
+    --> remove() : It removes all the occurances of child.
+
+=======================================
+
+To remove the particular element we dont neet to select the parent.
+
+Example :
+    let id3 = document.querrySelector('#id3);       // The tag which has id of id3 will get selected in id3.
+
+    // To remove it, we simply use -
+        id3.remove();

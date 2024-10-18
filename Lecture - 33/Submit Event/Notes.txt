@@ -1,0 +1,21 @@
+When we click on Sun=bmit button then our input text will appear on console,
+
+On clicking Submit button the browser will get refreshed, due to this the output is unable to see on console.
+
+Default Behaviour of Form : "get"
+On clicking Submit button, it automatically refreshes the browser.
+
+
+//====================== Preventing Default Value of Form =============================
+
+We know that whenever any event occurs then an object is also created.
+If we want to stop this default behaviour of the browser then we use "preventDefault()" method of the object.
+
+Note : Now our Browser will not get refreshed and we will able to see the output on console.
+
+
+// ========================== Accessing Elements of Form ==============================
+
+There is an "elements" property inside form that can be use to access the data/values of the form.
+
+elements : It has the access of all the elements of the form.

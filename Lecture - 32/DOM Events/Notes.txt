@@ -1,0 +1,14 @@
+Events is the action perform on doing something over the HTML documents.
+
+Some Types of EVENTS : (For more, study from MDN)
+
+    --> OnClick Event
+    --> OnDoubleClick Event
+    --> OnHover Event
+    --> OnScroll Event
+    --> OnMousemove Event
+
+We can add Events Inline.
+
+.log : It will print the corresponding elements in the String Format.
+.dir : It shows all the details of that object only.

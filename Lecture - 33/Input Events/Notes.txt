@@ -1,0 +1,7 @@
+When we give the input to the text area then our function will run on each input.
+
+Whenever an event is run/executed along with function/event, an object is also attched with it, which we can access it.
+We can call this object by any name, but generally we use => (e/event).
+
+Event Object => target,
+target : Jis element ke uper target trigger hua hai...

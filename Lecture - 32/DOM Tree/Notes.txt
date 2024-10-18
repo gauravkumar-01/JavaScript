@@ -1,0 +1,19 @@
+If we want to traverse the DOM tree :
+
+METHOD 1 :
+    ==> From Child to Parent :
+        --> Select the child.
+        --> child.parentElement.
+
+METHOD 2 :
+    ==> From Parent to Child :
+        --> Select the Parent.
+        --> parent.children => it returns the collection
+
+
+To check next Element Sibling we can will use nextElementSibling
+
+We can know about these three parts..
+    --> Parent of any node
+    --> Child of any node
+    --> Sibling of any node.

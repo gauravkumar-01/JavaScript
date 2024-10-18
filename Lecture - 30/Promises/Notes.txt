@@ -1,0 +1,28 @@
+PROMISES :
+
+Promises are used to tackle the problem of Call-back Hell.
+
+Syntax of Promises : new Promise();     //Promise is a reserve keyword.
+Note : On using "new" Keyword an object is created.
+
+new Promise accepts an function.
+Promise accepts a function in its arguments
+
+When we call the Promise then it is called by using two arguments.
+                    => resolve -> first arguments
+                    => reject -> second argument
+
+jb data mil jayega, to resolve function
+nhi milega to reject function...
+
+resolve function ka kaam "then" keyword karega..
+
+In real-world, Hm promise likhenge nhi, hum us par kaam karenge.......
+
+
+//  .then chaining
+There will be vetical a long chain of then, if we use resolve function again & again.
+
+To avoid this chaining problem, we use async-await..
+
+Note : CallBack Hell me code horizontally grow hota hai, and .then chaining me code vertically grow hota hai...

@@ -1,0 +1,6 @@
+When we made a Asynchoronous function then it will always return the Promise.
+
+IMPORTANT : Async function always return the Promis.
+        "Async" always work with "Await".
+
+Await => Jab tk ye kaam na ho jaye, tb tk wait karo...

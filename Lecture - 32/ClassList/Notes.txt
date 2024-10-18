@@ -1,0 +1,28 @@
+Whenever we work on classes then we use classlist...
+
+OPERATIONS ON CLASS LIST : 
+
+    --> add : Addition of class occurs
+    --> delete : Deletion of class occurs
+    --> toggle : 'true' --> 'false' & 'false' --> 'true' interchange.
+    --> contains : checks weather the class exists or not.
+                If class exists then return true otherwisse return false..
+
+    FORMAT : element.classlist.operation
+
+    Example : element.classlist.add(classname);
+    Note : In case of classlist, We can add multiple classes at a time by using comma-seperated value..
+        element.classlist.add(class1, class2, --- , classn);
+
+    Similary we can remove the classes..
+        element.classlist.remove(class_name);
+
+    --------- Toggle ---------------
+
+    Convert 'true' to 'false' and vice-versa.
+        element.classlist.toggle('classname');
+
+        If class is already added then it will get removed, if not added then it will add.
+
+    ---------- contains ---------------------
+    element.classlist.contains('classname');  --> return true or false based on presence of class..

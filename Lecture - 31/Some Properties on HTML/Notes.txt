@@ -1,0 +1,25 @@
+Some Properties of  HTML :
+
+    --> innerText : Ye kisi tag ke andr jo text present hoga vo dega (multiple spaces ko neglect kr dega..).
+                    It know about CSS.
+
+    --> Text content : It gives the text same as present inside the element.
+                    It does not know about CSS.
+
+    --> Inner HTML : It will return each & everything
+                    It may be text, styling, element, content etc..
+                    return text + tags(information / attribute)
+
+Note : These three properties are act as getters and setters.
+
+By using the Properties we can get data.
+But by using these 3 above properties we can also set data.
+            Most Suitable : innerHTML.
+
+
+We have some attribute(additional information) in JS foe setters.
+
+
+// =========================== Attribute Manipulate ============================
+
+We can get the value of any attibute, we can use get Attribute.
