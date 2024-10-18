@@ -1,0 +1,14 @@
+First we should make a canvas and make a cell size in it.
+
+After that we make an 2-d array which maintains the position of the snake.
+
+A function which updates the position of snake...
+
+clearInterval accepts an ID and stops/clear the interval tiem of that Id.
+
+==============================================================================
+
+Math.random function is used to generate the random number.
+Multiplied by width-cellSize || height-cellSize size to get the starting point of food cell.
+
+It is may be in decimal, so we round it, by dividing with cellSize, after that we will again multiply with cellsize.

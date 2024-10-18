@@ -1,0 +1,17 @@
+Canvas is an HTML element which hepls in designing.
+
+NOTE : We can give height and width to canvas.
+
+With the use of Brush, we can do multiple tasks, such as :
+    line,circle,rectangle,square color, shades etc...
+
+Our brush can draw 2D images on canvas.
+
+To draw any thing on canvas we use brush, in the programming language it is known as context.
+
+To make rectangle on canvas  
+
+=>  .fillRect(start,end) :
+        -> start : It conatains  x and y coordinates from where to start the rectangle...
+
+        -> end : This part will contains the width and height of rectangle.
