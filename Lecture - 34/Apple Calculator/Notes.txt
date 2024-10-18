@@ -1,0 +1,14 @@
+eval() method is used to evaluate the value of the given string.
+
+We we have such situation that our function will work correct or not..
+Then, we use try and catch method.
+
+
+We can handle error using try - catch block...
+
+=> try() : try function will use for correct work.
+=> catch() : function will work for error occurance.
+
+NOTE : When we have to add event to all buttons then we should use 'loop'.
+
+Home Work : After some time(10 sec), Input section should become empty.
